@@ -1,0 +1,49 @@
+@use "global" as *;
+
+.header {
+	position: relative;
+	height: rem(80);
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background-color: #0d2936ad;
+	padding: rem(21) rem(0);
+	z-index: 9999;
+	transition: ease 0.3s;
+	@include mq(md) {
+		height: rem(90);
+		padding: rem(0) rem(0);
+	}
+}
+
+.header.change-color {
+	background-color: #9a9a9a;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: rem(0) rem(15);
+
+	width: 100%;
+	margin: auto;
+	@include mq(md) {
+		margin: auto;
+		width: 100%;
+		justify-content: initial;
+		height: inherit;
+		padding-left: rem(40);
+		padding-right: rem(20);
+	}
+}
+
+.header__logo {
+	max-width: rem(102);
+	height: rem(38);
+	@include mq(md) {
+		max-width: rem(133);
+		height: rem(50);
+	}
+}
