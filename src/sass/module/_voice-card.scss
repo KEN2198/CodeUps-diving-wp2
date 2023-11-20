@@ -55,13 +55,6 @@
 }
 
 .voice-card__category {
-	@include mq(md) {
-		max-width: rem(128);
-		margin-left: auto;
-	}
-}
-
-.voice-card__category a {
 	display: inline-block;
 	border: rem(1) solid $accent-color;
 	color: $accent-color;
@@ -70,6 +63,8 @@
 	font-weight: $normal;
 	line-height: calc(22 / 12);
 	@include mq(md) {
+		max-width: rem(128);
+		margin-left: auto;
 		padding: rem(4) rem(16);
 		white-space: nowrap;
 	}

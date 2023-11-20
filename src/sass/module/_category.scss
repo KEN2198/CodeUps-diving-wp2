@@ -29,18 +29,19 @@
 	color: $accent-color;
 	background-color: $white;
 	border: 1px solid $accent-color;
+	transition: all ease 0.3s;
 	@include mq("md") {
 		max-width: rem(162);
 	}
 }
 
 .category__item:hover {
-	@include mq(md) {
-		cursor: pointer;
-	}
+	cursor: pointer;
+	background-color: $accent-color;
+	color: $white;
 }
 
-.category__item.is-active {
+.category__item.active {
 	background-color: $accent-color;
 	color: $white;
 }

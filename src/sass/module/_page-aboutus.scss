@@ -7,7 +7,7 @@
 .page-aboutus__inner::after {
 	position: absolute;
 	content: "";
-	background-image: url(/assets/images/page-kingyohanadai.png);
+	background-image: url(../images/page-kingyohanadai.png);
 	width: rem(120);
 	height: rem(55);
 	top: rem(-5);
@@ -30,7 +30,7 @@
 		right: calc(50% - (min(48.111vw, rem(637))));
 		width: rem(301);
 		height: rem(138);
-		background-image: url(/assets/images/page-aboutus-kingyohanadai.png);
+		background-image: url(../images/page-aboutus-kingyohanadai.png);
 		background-repeat: no-repeat;
 		background-size: contain;
 		z-index: 20;

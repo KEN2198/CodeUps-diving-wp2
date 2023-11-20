@@ -14,7 +14,6 @@
 	@include mq(md) {
 		max-width: rem(1080);
 		display: grid;
-		align-items: center;
 		grid-template-columns: repeat(3, 1fr);
 		row-gap: rem(80);
 	}

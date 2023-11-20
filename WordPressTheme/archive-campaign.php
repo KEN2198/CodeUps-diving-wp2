@@ -74,17 +74,19 @@ $sitemap = esc_url( home_url( '/sitemap/' ) );
 									</p>
 									<p class="campaign-card__price-accent">¥<?php the_field('campaign_price2'); ?></p>
 								</div>
-								<div class="campaign-card__text u-desktop">
-									<p>
-									<?php the_content(); ?>
-									</p>
-								</div>
-								<div class="campaign-card__info u-desktop">
-									<p><?php the_field('campaign_1'); ?></p>
-									<p class="campaign-card__contact-text u-desktop">ご予約・お問い合わせはコチラ</p>
-								</div>
-								<div class="campaign-card__button u-desktop">
-									<a href="<?php echo $contact; ?>" class="button"><span>Contact us</span></a>
+								<div class="campaign-card__info-pc">
+									<div class="campaign-card__text u-desktop">
+										<p>
+										<?php the_content(); ?>
+										</p>
+									</div>
+									<div class="campaign-card__info u-desktop">
+										<p><?php the_field('campaign_1'); ?></p>
+										<p class="campaign-card__contact-text u-desktop">ご予約・お問い合わせはコチラ</p>
+									</div>
+									<div class="campaign-card__button u-desktop">
+										<a href="<?php echo $contact; ?>" class="button"><span>Contact us</span></a>
+									</div>
 								</div>
 							</div>
 						</div>

@@ -7,7 +7,7 @@
 .single-blog__inner::after {
 	position: absolute;
 	content: "";
-	background-image: url(/assets/images/page-kingyohanadai.png);
+	background-image: url(../images/page-kingyohanadai.png);
 	width: rem(120);
 	height: rem(55);
 	top: rem(-25);
@@ -81,7 +81,7 @@
 	}
 
 	li {
-		background-image: url(/assets/images/site-map-icon.png);
+		background-image: url(../images/site-map-icon.png);
 		background-repeat: no-repeat;
 		background-size: rem(18);
 		background-position: left;

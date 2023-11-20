@@ -300,7 +300,7 @@ textarea {
 .form__button::before {
 	position: absolute;
 	content: "";
-	background-image: url(/assets/images/button-arrow-white.png);
+	background-image: url(../images/button-arrow-white.png);
 	background-position: center center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -315,7 +315,7 @@ textarea {
 .form__button:hover::before {
 	position: absolute;
 	content: "";
-	background-image: url(/assets/images/button-arrow-active.png);
+	background-image: url(../images/button-arrow-active.png);
 	background-position: center center;
 	background-size: contain;
 	background-repeat: no-repeat;

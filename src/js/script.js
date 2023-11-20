@@ -197,4 +197,12 @@ jQuery(function ($) {
 			return false;
 		});
 	});
+	$(document).ready(function () {
+		// .sidebar__archive__item-yearをクリックしたときの処理
+		$(".sidebar__archive__item-year").click(function () {
+			// クリックされた年の月を表示切り替える
+			var months = $(this).next(".sidebar__archive__item-mounth-group");
+			$(months).slideToggle();
+		});
+	});
 });

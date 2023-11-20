@@ -106,7 +106,7 @@
 .sidebar__archive__item-year-current::before {
 	position: absolute;
 	content: "";
-	background-image: url(/assets/images/archive-year.png);
+	background-image: url(../images/archive-year.png);
 	background-position: center center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -118,6 +118,8 @@
 }
 
 .sidebar__archive__item-year {
+	cursor: pointer;
+	display: flex;
 	position: relative;
 	padding-left: rem(32);
 	margin-top: rem(9);
@@ -127,7 +129,7 @@
 	display: inline-block;
 	position: absolute;
 	content: "";
-	background-image: url(/assets/images/archive-mounth.png);
+	background-image: url(../images/archive-mounth.png);
 	background-position: center center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -140,15 +142,20 @@
 }
 
 .sidebar__archive__item-mounth {
+	display: flex;
 	position: relative;
 	padding-left: rem(56);
+}
+
+.sidebar__archive__item-mounth-group {
+	display: none;
 }
 
 .sidebar__archive__item-mounth::before {
 	display: inline-block;
 	position: absolute;
 	content: "";
-	background-image: url(/assets/images/archive-mounth.png);
+	background-image: url(../images/archive-mounth.png);
 	background-position: center center;
 	background-size: contain;
 	background-repeat: no-repeat;

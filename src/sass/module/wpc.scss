@@ -1,0 +1,55 @@
+@use "global" as *;
+
+span.wpcf7-form-control-wrap {
+	padding: 0;
+}
+
+.wpcf7-form-control.wpcf7-checkbox {
+	padding: 0;
+}
+
+.wpcf7-list-item first {
+	padding: 0;
+}
+
+span.wpcf7-list-item {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.wpcf7-list-item-label {
+	display: inline-flex;
+}
+
+.wpcf7-form-control.wpcf7-email.wpcf7-validates-as-required.wpcf7-text.wpcf7-validates-as-email {
+	margin: 0;
+}
+
+.wpcf7-form-control.wpcf7-submit.has-spinner {
+	color: #fff;
+}
+
+.wpcf7-spinner {
+	display: none;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required.wpcf7-not-valid {
+	background: rgba(201, 72, 0, 0.2);
+	border: 1px solid #c94800;
+}
+
+textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.wpcf7-not-valid {
+	background: rgba(201, 72, 0, 0.2);
+	border: 1px solid #c94800;
+}
+
+.wpcf7 form .wpcf7-response-output {
+	border: none;
+	color: #c94800;
+	margin-bottom: 0rem;
+	margin-left: 3.125rem;
+	margin-right: 0rem;
+	margin-top: 0rem;
+	padding: 0;
+}
